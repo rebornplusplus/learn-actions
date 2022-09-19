@@ -1,7 +1,7 @@
 name: check-bad-words
 on: [push]
 jobs:
-  check-bats-version:
+  check-bad-words:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
